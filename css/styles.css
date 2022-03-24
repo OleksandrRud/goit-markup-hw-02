@@ -1,5 +1,115 @@
-body {
-  font-family: "Roboto", sans-serif;
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --acccent-text-color: #2196f3;
+  --text-white-color: #ffffff;
 }
-/* цвет основного текста */
-/* цвет вторичного текста */
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+.title {
+  color: var(--primery-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+.list {
+  list-style: none;
+}
+.text {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+/* header */
+.logo {
+  color: #2196f3;
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
+.color-nav {
+  color: #212121;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
+}
+.contacts-nav :hover,
+.contacts-nav :focus {
+  color: #2196f3;
+}
+.contact {
+  color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+}
+.site-nav .color-nav.current{
+  color: #2196f3;
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.hero-button {
+  color: var(--text-white-color);
+  background-color: var(--acccent-text-color);
+  font-family: inherit;
+}
+
+/* our advantage */
+.advantage {
+  background-color: #ffffff;
+}
+.advantage-list {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* our work */
+.work {
+  background-color: #ffffff;
+}
+/* section-our-team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-name {
+  color: var(--primery-text-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+  }
+ .contact-map {
+    color: #ffffff;
+/* portfolio */
