@@ -3,6 +3,7 @@
   --title-text-color: #757575;
   --acccent-text-color: #2196f3;
   --text-white-color: #ffffff;
+  --button-portfolio: #f5f4fa;
 }
 
 body {
@@ -33,6 +34,12 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+}
+.studio-black {
+  color: #212121;
+}
+.studio-white {
+  color: #ffffff;
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -76,8 +83,16 @@ body {
 }
 .hero-button {
   color: var(--text-white-color);
-  background-color: var(--acccent-text-color);
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   font-family: inherit;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 /* our advantage */
@@ -112,9 +127,17 @@ body {
 /* footer */
 .footer {
   background-color: #2f303a;
+  font-style: normal;
 }
 .contact-map {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -142,4 +165,19 @@ body {
 }
 .decor {
   text-decoration: none;
+}
+.btn-filter {
+  color: var(--primery-text-color);
+  background-color: var(--button-portfolio);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--text-white-color);
+  background-color: var(--acccent-text-color);
 }
